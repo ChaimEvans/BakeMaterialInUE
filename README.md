@@ -1,8 +1,9 @@
 # BakeMaterialInUE
 一个基于 UE4SS 的 C++ 程序，能够向UE游戏注入程序，将游戏内的材质烘焙成图像。
+> 已测试UE4SS版本：`UE4SS_v3.0.1-689-g08619ca`、`UE4SS_v3.0.1`
 
 ## 使用
-1. 前往[Releases](https://github.com/ChaimEvans/BakeMaterialInUE/releases)下载 或 自行编译
+1. 前往 [Releases](https://github.com/ChaimEvans/BakeMaterialInUE/releases) 下载 **或** 自行编译
 2. 安装MOD，路径如下：
 ```
 ue4ss/
@@ -17,7 +18,7 @@ ue4ss/
 MyExampleMod : 1
 ```
 
-> 我这里没改MOD名，若冲突请自行编译🫡
+> 我这里没修改默认MOD名，若冲突请自行编译🫡
 
 ## 开发
 > - 要求Visual Studio 2022以上，且配置Visual Studio的CMake环境变量
